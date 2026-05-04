@@ -47,22 +47,39 @@ Visit the live website: [https://wasdr1.github.io/An-actual-Website-by-Raiyan/](
 
 ## Project Structure
 An-actual-Website-by-Raiyan/
+
 ├── index.html # Home page
+
 ├── about.html # About page
+
 ├── style.css# Styles for all pages
+
 ├── script.js # JavaScript functionality
+
 ├── README.md # This file
+
 ├── robots.txt # Search engine crawling rules
+
 ├── sitemap.xml # SEO sitemap
+
 ├── favicon.ico # Website icon
+
 ├── favicon-32x32.png # 32x32 favicon
+
 ├── favicon-16x16.png # 16x16 favicon
+
 ├── apple-touch-icon.png # Apple touch icon
+
 ├── site.webmanifest # PWA manifest
+
 ├── profile.jpg # Profile picture
+
 ├── banner.jpg # Social media preview image
+
 ├── SimpleCalculatorUsingC.jpg # Project image
+
 ├── HTML5WebsiteSample.jpg # Project image
+
 └── ICTpracticalcoding.jpg # Project image
 
 
