@@ -46,7 +46,7 @@ window.addEventListener("scroll", () => {
 });
 
 /* Typing effect (deferred start) */
-const text = "Hi, I'm Raiyan";
+const text = "Assalamualaikum, I'm Raiyan";
 let i = 0;
 
 function startTyping() {
@@ -86,7 +86,7 @@ function createParticles() {
     particlesJS("particles-js", {
       particles: {
         number: { value: 90 },
-        size: { value: 3 },
+        size: { value: 5 },
         move: { speed: 1 },
         line_linked: { enable: true }
       }
