@@ -8,7 +8,7 @@ window.addEventListener("load", () => {
   const loader = document.getElementById("loader");
   if (loader) {
     loader.style.opacity = "0";
-    setTimeout((50) => {
+    setTimeout(() => {
       loader.style.display = "none";
     }, 1000);
   }
@@ -36,7 +36,7 @@ function type() {
   if (el && i < text.length) {
     el.innerHTML += text.charAt(i);
     i++;
-    setTimeout(type, 50);
+    setTimeout(type, 100);
   }
 }
 type();
@@ -45,7 +45,7 @@ type();
 if (typeof particlesJS !== "undefined") {
   particlesJS("particles-js", {
     particles: {
-      number: { value: 70 },
+      number: { value: 90 },
       size: { value: 3 },
       move: { speed: 1 },
       line_linked: { enable: true }
