@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with HTML, CSS, and JavaScript feat
 
 ## Live url
 
-Visit the live website: [https://wasdr1.github.io/Portofolio-of-Raiyan/](https://wasdr1.github.io/Portofolio-of-Raiyan/)
+Visit the live website: [https://wasdr1.github.io/Portfolio-of-Raiyan/](https://wasdr1.github.io/Portfolio-of-Raiyan/)
 
 ---
 
