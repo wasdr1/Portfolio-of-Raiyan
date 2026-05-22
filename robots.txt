@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: 
 
-Sitemap: https://wasdr1.github.io/An-actual-Website-by-Raiyan/sitemap.xml
+Sitemap: https://wasdr1.github.io/Portofolio-of-Raiyan/sitemap.xml
