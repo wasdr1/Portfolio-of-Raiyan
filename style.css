@@ -44,6 +44,7 @@ body {
 /* Glass effect */
 .glass {
   background: rgba(255,255,255,0.08);
+  -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
 }
 
@@ -100,12 +101,17 @@ nav a:hover {
   transition: 0.3s;
 }
 
+/* Lift + neon shadow on hover */
 .card:hover {
-  transform: translateY(-10px);
   box-shadow: 0 0 25px #00f7ff;
 }
 
-/* 3D tilt */
+/* Ensure elements with both .card and .tilt get both translate + rotate */
+.card.tilt:hover {
+  transform: translateY(-10px) rotateY(10deg) rotateX(10deg);
+}
+
+/* Keep tilt-only fallback (if not also .card) */
 .tilt:hover {
   transform: rotateY(10deg) rotateX(10deg);
 }
